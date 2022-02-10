@@ -1,0 +1,9 @@
+apiVersion: getambassador.io/v2
+kind:  Mapping
+metadata:
+  name:  faspi
+spec:
+  resolver: endpoint
+  prefix: /faspi
+  rewrite: /faspi
+  service: prod:80
