@@ -32,7 +32,7 @@ spec:
             - faspi
       steps:
       - setCanaryScale:
-          replicas: 3
+          replicas: 2
       - setWeight: 50
       - pause: {}
       
