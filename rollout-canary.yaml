@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: test
-        image: moncete/faspi:0.4
+        image: moncete/faspi:RELEASE-0.0.23
         env:
         - name: PRUEBA
           value: "CANARY2" 
